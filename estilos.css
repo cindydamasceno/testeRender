@@ -21,6 +21,11 @@ img {
     margin: 20px 0;
 }
 
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 hr {
     border: 0;
     height: 1px;
